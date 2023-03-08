@@ -1,0 +1,282 @@
+
+
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.mainDivTable {
+
+    /* height: auto;
+    width: 100%; */
+    
+    background:#FFFFFF;
+        border-radius: 10px;
+        /* margin: 20px; */
+        width: 85%;
+        
+}
+.header{
+    background-color: #030BC6;
+}
+
+
+
+/* table {
+    
+    border-collapse: collapse; 
+    border: 1px solid #EEEEEE;
+  } */
+
+
+
+
+th {
+    /* border: 1px solid #EEEEEE; */
+    padding: 21px;
+    font-family:'Hind',sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    color: #000000;
+}
+
+
+td {
+    text-align: center;
+    font-family:'Hind',sans-serif;
+    border-bottom: 1px solid #EEEEEE;
+   
+   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #292D32;
+}
+
+.btn {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.bt {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trash {
+    color: red;
+}
+
+.edit {
+    color: blue
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-left: 50px;
+    background-color: white;
+
+
+}
+
+.btnOverView {
+    width: 76px;
+    height: 24px;
+    border: none;
+    background-color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+cursor: pointer;
+    
+    color: #030BC6;
+
+}
+
+.btnAddItem {
+    width: 83px;
+    height: 24px;
+    /* left: 310px;
+top: 137px; */
+cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    background-color: white;
+    /* identical to box height */
+
+    color: #000000;
+
+}
+
+/* .formHead{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+} */
+hr {
+    border: 1px solid #D9D9D9;
+    /* width: 1210px; */
+    margin: 0px 32px;
+}
+
+.btn button {
+    background: #030BC6;
+    border-radius: 8px;
+    width: 109px;
+    height: 43px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    /* identical to box height, or 150% */
+cursor: pointer;
+    text-align: center;
+
+    /* W Background */
+
+    color: #FFFFFF;
+}
+
+.pagenation {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.tableTitle{
+    font-family:'Hind',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 35px;
+
+
+color: #01082F;
+}
+.tableHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.addItemBtn{
+    background-color: #08A5C0;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    width: 100px;
+    color: white;
+   
+}
+.tableThRow{
+    background: #F6F6F6;
+}
+#tableTD tr:nth-child(even) {
+        background:#F6F6F6
+}
+.tableTax{
+    background: rgba(6, 123, 143, 0.06);
+border-width: 0px 1px;
+border-style: solid;
+border-color: #067B8F;
+}
+
+
+/* @media only screen and (max-width: 600px) { */
+/* 
+    .mainDiv{
+    
+        height: 636px;
+        padding: 25px;
+         background:white;
+        border-radius: 10px;
+        
+        } */
+@media screen and (max-width: 40em) {
+    /* th {
+            display: block;
+        } */
+
+
+}
+
+@media screen and (max-width: 40em) {
+
+    body {
+        background-color: #F2F2F2;
+        padding: 0;
+      }
+      
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .mainDivTable{
+        width: 80%;
+      }
+    
+
+
+    .responsiveTable td.pivoted {
+        padding: 0 !important;
+        display: flex;
+        /* background: #78a; */
+        letter-spacing: 0;
+    }
+
+    .responsiveTable td .tdBefore {
+        position: initial;
+        width: 50%;
+        /* background: #190; */
+        flex: .5;
+    }
+    .responsiveTable td span {
+        flex: .5;
+    }
+}
+
+@media (min-width: 768px) { 
+   
+   
+    .tbl{
+        overflow: scroll;
+
+    }
+
+
+    /* .mainDivTable{
+        height: 1180px;
+    } */
+
+
+}

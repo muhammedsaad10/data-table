@@ -1,0 +1,49 @@
+/* .dashboard{
+    padding: 100px;
+    background-color:white;
+    width: 18%;
+}
+.midDash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.para{
+    margin-bottom: 0;
+} */
+
+
+
+.Bar{
+    height: 92% !important;
+    /* background: blue !important; */
+}
+
+.sidenav---sidenav---_2tBP {
+    top: 52px !important;
+    background-color: white !important;
+}
+.nText{
+    width: 10px !important;
+}
+.sidenav---sidenav-toggle---1KRjR .sidenav---icon-bar---u1f02 {
+    background-color: black !important;
+}
+.sidenav---sidenav---_2tBP.sidenav---expanded---1KdUL .sidenav---sidenav-nav---3tvij > .sidenav---sidenav-navitem---uwIJ- .sidenav---navicon---3gCRo + .sidenav---navtext---1AE_f {
+    color: black;
+}
+
+
+
+
+@media screen and (max-width: 40em) {
+    /* th {
+            display: block;
+        } */
+        .sidenav---sidenav---_2tBP.sidenav---expanded---1KdUL {
+            min-width: 130px !important;
+        }
+
+}

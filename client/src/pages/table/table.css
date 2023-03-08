@@ -1,0 +1,19 @@
+.test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 95vh; */
+    width: 100%;
+
+    
+  
+}
+.ddd{
+    height: 100%;
+}
+@media screen and (max-width: 40em) {
+    .test{
+        margin-left: 29px;
+    }
+    
+}
