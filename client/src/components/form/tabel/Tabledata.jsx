@@ -100,9 +100,10 @@ export default function Tabledata({ toggle }) {
         </Dialog>
       </div>
       <header className="header"></header>
+
       <div
         className="mainDivTable"
-        style={{ marginLeft: toggle ? "250px" : "0px" }}
+        // style={{ marginLeft: toggle ? "27%" : "10px" }}
       >
         <div className="tableHeader">
           <div className="tableTitle">

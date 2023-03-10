@@ -11,9 +11,13 @@
 .ddd{
     height: 100%;
 }
+.head{
+    width:100% !important;
+}
 @media screen and (max-width: 40em) {
     .test{
-        margin-left: 29px;
+        margin-left: 40px;
+        width:90%;
     }
-    
+
 }

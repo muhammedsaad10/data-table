@@ -39,7 +39,7 @@ function Table() {
   // console.log("widrh", elmnt?.offsetWidth, ref);
 
   return (
-    <div>
+    <div className="head">
       {<Header />}
 
       <div className="test">{<Tabledata toggle={toggle} />}</div>

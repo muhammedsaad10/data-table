@@ -24,6 +24,7 @@
 .sidenav---sidenav---_2tBP {
     top: 52px !important;
     background-color: white !important;
+    margin-top: 4px !important;
 }
 .nText{
     width: 10px !important;
@@ -42,8 +43,18 @@
     /* th {
             display: block;
         } */
+        .sidenav---sidenav---_2tBP {
+            /* visibility: hidden; */
+        }
         .sidenav---sidenav---_2tBP.sidenav---expanded---1KdUL {
-            min-width: 130px !important;
+            min-width:33% !important;
+            
+        }
+        .sidenav---sidenav---_2tBP {
+            top: 52px !important;
+            background-color: #F2F2F2 !important;
+            /* height:100% !important ; */
+            margin-top: 4px !important;
         }
 
 }

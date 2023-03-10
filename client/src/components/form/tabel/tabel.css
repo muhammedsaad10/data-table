@@ -14,6 +14,7 @@
     background:#FFFFFF;
         border-radius: 10px;
         /* margin: 20px; */
+        margin: 20px;
         width: 85%;
         
 }
@@ -64,7 +65,8 @@ td {
 
 .btn {
     margin: 10px;
-    display: flex;
+    display: flex !important;
+    flex-wrap: nowrap !important;
     flex-direction: row;
     gap: 10px;
     align-items: center;
@@ -242,7 +244,9 @@ border-color: #067B8F;
         box-sizing: border-box;
       }
       .mainDivTable{
-        width: 80%;
+        /* width: 80%; */
+        width: 100%;
+    margin-left: -18px;
       }
     
 
